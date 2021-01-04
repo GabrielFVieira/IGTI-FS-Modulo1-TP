@@ -1,0 +1,42 @@
+#inputsContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.sliderContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.sliderContainer p {
+	width: 100px;
+	text-align: start;
+}
+
+.slider {
+	width: 250px;
+	margin: 0 15px;
+}
+
+.valuePreview {
+	width: 60px;
+	height: 20px;
+	text-align: center;
+}
+
+#colorPreviewContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+#colorPreview {
+	width: 150px;
+	height: 150px;
+	border: 1px solid #000;
+}
